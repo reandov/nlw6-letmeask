@@ -1,6 +1,6 @@
 #page-room {
   header {
-    padding: 24px;
+    padding: 20px;
     border-bottom: 1px solid #e2e2e2;
 
     .content {
@@ -12,6 +12,16 @@
 
       > img {
         max-height: 45px;
+        cursor: pointer;
+      }
+
+      > div {
+        display: flex;
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
       }
     }
   }
@@ -36,7 +46,7 @@
         background: #e559f9;
         border-radius: 9999px;
         padding: 8px 16px;
-        color: #ffffff;
+        color: #fff;
         font-weight: 500;
         font-size: 14px;
       }
@@ -52,11 +62,6 @@
         box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
         resize: vertical;
         min-height: 130px;
-        transition: 0.4s;
-
-        &:hover {
-          box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
-        }
       }
 
       .form-footer {
@@ -82,7 +87,6 @@
             font-size: 14px;
           }
         }
-
         > span {
           font-size: 14px;
           color: #737380;
@@ -99,6 +103,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
   }
 }
