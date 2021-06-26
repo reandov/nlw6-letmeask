@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# 🚀 React LetMeAsk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align='center' 
+style='
+display:flex; 
+justify-content: center; 
+align-items: center;'
+>
+    <img src="https://media.giphy.com/media/Me7C8ln2qbeAguJjzT/giphy.gif" width=200 height=200 style='margin: 4px'/>
+    <img src="https://camo.githubusercontent.com/002313a28ac7d09f24e8a70358139bb4f7c2c32eaf83a926e873bedf67b69eac/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f654e41736a4f353574506267616f72376d612f67697068792e676966" width=200 height=200/>
+    <img src="https://media.tenor.com/images/a2af8b5aafc93a0526b6c36e7dbf63e4/tenor.gif" width=200 height=200/>
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Teste a aplicação online!
 
-### `yarn start`
+Ei! Você pode testar a aplicação no Vercel neste **[link](https://nlw6-letmeask-741c5.web.app/)**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 💡 O que foi desenvolvido?
 
-### `yarn test`
+Nesse projeto foi desenvolvido (através da Next Level Week #6 da [RocketSeat](https://rocketseat.com.br/)) uma aplicação bastante útil de interação através de perguntas e respostas. Foi desenvolvido usando [React](https://reactjs.org/), e nessa edição tive a oportunidade imensa de trabalhar (dessa vez corretamente) com [Firebase](https://firebase.google.com/). A aplicação é bastante intuítiva, nela o usuário pode criar ou participar de salas de perguntas, da qual é necessário autenticação via Google (usando Auth no Firebase) e quando logado o usuário ou é Admin ou Usuário normal. Quando usuário normal, o mesmo pode enviar perguntas, e dar like em outras, quando é Admin, pode marcar como respondida, dar destaque ou remove-la!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Tecnologias
 
-### `yarn build`
+- _Web_: **React**
+- _Database_: **Firebase**
+- _Hosting_: **Firebase Hosting**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Outras tecnologias/técnicas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Packages:
+  - [React CRA](https://reactjs.org/docs/create-a-new-react-app.html);
+  - [TypeScript](https://www.typescriptlang.org/docs/handbook/react.html);
+  - [React Router](https://reactrouter.com/web/guides/quick-start);
+  - [SASS](https://sass-lang.com/)
+  - [Classnames](https://www.npmjs.com/package/classnames);
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 👨‍💻 Minha experiência
 
-### `yarn eject`
+Apesar de já ter uma certa experiência com React (que em boa parte foram adquiridas pelos eventos da Rocketseat) não há um evento que eu não aprenda coisas novas. Desta vez aprendi melhor sobre Firebase, mas ainda sim aprendi diversas outras coisas do React em sí, como o uso de Custom Hooks, Contexts, o funcionamento interno do React (do qual eu amo descobrir coisas). Essa NLW foi uma experiência incrível!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ⚙ Como você pode rodar este projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você quer rodar este projeto no seu computador, é muito fácil, siga os passos e tudo estará configurado:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Execute: $ `git clone` nesse repositório incrível;
+2. Certifique-se de ter o Node/NPM/Yarn instalado em seu computador;
+3. Na pasta do projeto, execute: $ `yarn install`;
+4. Ainda na pasta do projeto, execute: $ <strong>`yarn dev`</strong>;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Pronto! Agora esse projetão incrível vai estar rodando na sua máquina! 😎
 
-## Learn More
+## 🖼️ Alguns Screenshots da Aplicação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div align='center'>
+    <h3>Home</h3>
+    <img src="https://i.imgur.com/HagSW2c.png" width=480 height=270 style='margin-bottom:15px'/>
+    <h3>Login com Google</h3>
+    <img src="https://i.imgur.com/hPG7h2R.png" width=266 height=382 style='margin-bottom:15px'/>
+    <h3>Tela Usuário</h3>
+    <img src="https://i.imgur.com/HX6fSj0.png" width=480 height=270 style='margin-bottom:15px'/>
+    <h3>Tela Admin</h3>
+    <img src="https://i.imgur.com/dkA1QBQ.png" width=480 height=270 style='margin-bottom:15px'/>
+</div>
